@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chatbot Stream</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-layout">
+    <div class="chat-section">
+      <header>
+        <div class="logo">
+          <div class="logo-text">
+            <h1>Chatbot Stream</h1>
+            <p>Tanya apa saja dengan respons real-time.</p>
+          </div>
+        </div>
+      </header>
+
+      <main id="chat-box" class="chat-box"></main>
+
+      <footer class="input-area">
+        <form id="chat-form">
+          <input type="text" id="user-input" placeholder="Tulis pesan Anda di sini..." autocomplete="off" required />
+          <button type="submit" id="send-btn">Kirim</button>
+        </form>
+      </footer>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
